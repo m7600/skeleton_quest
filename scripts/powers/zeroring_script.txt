@@ -1,0 +1,3 @@
+[event]
+save_game=true
+msg=Game saved.
