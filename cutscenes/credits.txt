@@ -1,0 +1,60 @@
+APPEND
+
+[vscroll]
+image=images/menus/logo.png
+separator=8
+
+text=Flare Game Credits - empyrean_campaign
+separator=16
+
+text=Lead Content Designers
+separator=16
+text=Clint Bellanger
+text=Justin Jacobs
+separator=32
+
+text=Visual Artists
+separator=16
+text=cron
+text=Justin Nichol
+text=rubberduck
+text=Short-Ribs
+text=Stefano Peris
+text=VWolfDog
+text=yd
+separator=32
+
+text=Foley Artists
+separator=16
+text=adamgryu
+text=GuntherDorksen
+separator=32
+
+text=Translators
+separator=16
+text=Agustin Ferrario
+text=Diego J. Romero López
+text=Eric R
+text=Fyrenic
+text=Gabriel Iasi
+text=GunChleoc
+text=Igor Paliychuk
+text=Janet Hunt
+text=Mikalái Valér'evich Sakalóuski
+text=Mykola Franchuk
+text=MOB2
+text=Nea Retrogamer
+text=Pavel Maryanov
+text=Pawel Puszczyński
+text=Rui
+text=Sang-froid
+text=Sam Vo
+text=Sergiy Borodych
+text=Stefano Peris
+text=sujiniku
+text=syl_
+text=Vicente Monteiro
+text=Wuzzy2
+text=Zmicer Turok
+
+separator=64
