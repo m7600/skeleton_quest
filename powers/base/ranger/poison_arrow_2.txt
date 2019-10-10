@@ -1,0 +1,5 @@
+INCLUDE powers/base/ranger/poison_arrow.txt
+post_effect=bleeding,5,5s
+modifier_damage=multiply,140,0
+requires_mp=3
+

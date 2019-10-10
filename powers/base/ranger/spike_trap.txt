@@ -1,0 +1,16 @@
+name=Spike Trap
+description=Spikes erupt from the ground, dealing darkness damage and immobilizing the target. Unlike the corpse trap, the spike trap does not require a corpse.
+type=fixed
+icon=21
+new_state=swing
+face=true
+directional=true
+starting_pos=melee
+animation=animations/powers/bear_trap.txt
+use_hazard=true
+base_damage=ranged
+lifespan=10s
+radius=1.0
+post_effect=slow,0,3s
+post_power=110
+

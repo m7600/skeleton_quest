@@ -1,0 +1,11 @@
+name=Shadowstep
+icon=9
+description=Become a shadow, increasing your avoidance and accuracy.
+type=fixed
+new_state=cast
+buff=true
+post_effect=shadowstep,0,10s
+post_effect=avoidance,40,10s
+post_effect=accuracy,75,10s
+cooldown=15s
+soundfx=soundfx/powers/shield.ogg
