@@ -1,0 +1,12 @@
+name=The Lion's Den
+complete_status=sq_lionheart_finish
+
+[quest]
+requires_status=sq_lionheart_init
+requires_not_status=sq_lionheart_finish
+quest_text=Defeat Captain Lionheart.
+
+[quest]
+requires_status=sq_lionheart_defeated
+requires_not_status=sq_lionheart_finish
+quest_text=You have defeated Captain Lionheart. Approach the Obelisk and speak to it.

@@ -1,0 +1,7 @@
+name=Rescue Krolan
+complete_status=sq_krolan_finish
+
+[quest]
+requires_status=sq_krolan_init
+requires_not_status=sq_krolan_finish
+quest_text=Travel to the Haunted Mines in the area of the Solitary River and rescue Krolan.

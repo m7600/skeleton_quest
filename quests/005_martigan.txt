@@ -1,0 +1,13 @@
+name=A visit to Martigan
+complete_status=sq_martigan_finish
+
+[quest]
+requires_status=sq_martigan_init
+requires_not_status=sq_martigan_finish
+quest_text=Travel to Martigan's Outpost and talk some sense into him.
+
+[quest]
+requires_status=sq_martigan_init
+requires_status=sq_martigan_defeated
+requires_not_status=sq_martigan_finish
+quest_text=Return to the Haunted Mines and inform Krolan of Martigan's death.

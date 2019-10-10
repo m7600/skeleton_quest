@@ -1,0 +1,13 @@
+name=Defeat Ratface the Thug Lord
+complete_status=sq_ratface_finish
+
+[quest]
+requires_status=sq_ratface_init
+requires_not_status=sq_ratface_finish
+quest_text=Ratface is rallying his thugs somewhere in the Frost Tundra.
+
+[quest]
+requires_status=sq_ratface_init
+requires_status=sq_ratface_defeated
+requires_not_status=sq_ratface_finish
+quest_text=Return to the Skeleton Cave and inform Cornelius of your victory.

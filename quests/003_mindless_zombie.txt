@@ -1,0 +1,16 @@
+name=Mindless Zombie
+complete_status=sq_loren_finish
+
+[quest]
+requires_status=sq_loren_init
+requires_not_status=sq_loren_finish
+quest_text=Find out if there is a way to communicate with Loren.
+
+[quest]
+requires_status=sq_loren_init,sq_loren_xonun
+quest_text=Loren requires a fresh brain of exceptional quality in order to recover his mental faculties.
+
+[quest]
+requires_status=sq_loren_init,sq_loren_brain
+requires_not_status=sq_loren_finish
+quest_text=You have slain the mad wizard and recovered his brain. This might be the kind of 'quality food' that Loren requires.

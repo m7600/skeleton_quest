@@ -1,0 +1,12 @@
+name=Poison the Thug's Water Supply
+complete_status=sq_water_supply_finish
+
+[quest]
+requires_status=sq_water_supply_init
+requires_not_status=sq_empty_vial
+quest_text=Infiltrate the thug's stronghold and poison their water supply.
+
+[quest]
+requires_status=sq_empty_vial
+requires_not_status=sq_water_supply_finish
+quest_text=Return to Zola and inform him of your success.
