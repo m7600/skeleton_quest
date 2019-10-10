@@ -1,0 +1,5 @@
+description=Skeleton Quest mod
+requires=fantasycore:1.06.03:0
+game=flare-game
+version=0.0.01
+engine_version_min=1.10.05
