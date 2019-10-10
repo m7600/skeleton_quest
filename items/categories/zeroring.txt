@@ -1,0 +1,11 @@
+[item]
+id=1105
+name=The Zero Ring
+item_type=consumable
+INCLUDE items/base/misc/generic.txt
+flavor= Bill has carved some crude inscriptions on this ring: "Three Rings for some dudes in a forest, Seven Rings for a bunch of people in a cave, One Ring for showing everyone who's the boss. Wait, that's not how it goes. Well, I was never good at poetry anyway. So, this is the Zero Ring, use it wisely or whatever."
+icon=207
+quality=unique
+power=550
+power_desc=The Zero Ring allows you to save the game whenever you use it.
+

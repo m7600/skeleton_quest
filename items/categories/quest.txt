@@ -1,0 +1,17 @@
+[item]
+id=1000
+name=Vial of Poison
+INCLUDE items/base/misc/generic.txt
+icon=259
+quest_item=true
+quality=unique
+pickup_status=sq_water_supply_vial
+
+[item]
+id=1001
+name=Mad Wizard's Brain
+INCLUDE items/base/misc/generic.txt
+icon=261
+quest_item=true
+quality=unique
+pickup_status=sq_loren_brain
