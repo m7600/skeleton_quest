@@ -1,0 +1,78 @@
+# Power Definitions
+
+#################################
+# Powers menu (aka hero powers)
+#################################
+# Total: 1-233
+# Warrior: 1-41
+# Ranger: 42-64; 209-213; 65-79; 214-218; 80-94; 219-223; 95-99; 224-233; 100-115
+# Mage: 116-156
+INCLUDE powers/categories/warrior.txt
+INCLUDE powers/categories/ranger.txt
+INCLUDE powers/categories/magician.txt
+
+################################# 
+# Visual effects and beacon
+################################# 
+# 157-161; 268
+INCLUDE powers/categories/visual_effects.txt
+INCLUDE powers/categories/beacon.txt
+
+################################# 
+# Item powers
+#################################
+# 162-163; 234-235; 181; 246-252; 550 (Zero Ring)
+INCLUDE powers/categories/items.txt
+
+#################################
+# Enemy powers
+#################################
+# 164-267
+INCLUDE powers/categories/enemy.txt
+
+#################################
+# Quest powers
+#################################
+# 238
+INCLUDE powers/categories/quest.txt
+
+#################################
+# 500 (dev powers)
+[power]
+id=500
+name=Teleport
+type=fixed
+icon=176
+new_state=cast
+requires_empty_target=true
+requires_targeting=true
+requires_equipped_item=2000
+soundfx=soundfx/powers/teleport.ogg
+no_attack=true
+lifespan=533ms
+starting_pos=source
+buff_teleport=true
+buff=true
+post_effect=teleport,0,533ms
+
+[power]
+id=501
+name=Turn Invisible
+type=fixed
+icon=176
+new_state=cast
+soundfx=soundfx/powers/teleport.ogg
+buff=true
+post_effect=dev_invis,0,0
+replace_by_effect=502,dev_invis,1
+
+[power]
+id=502
+name=Remove Invisibility
+type=fixed
+icon=176
+new_state=cast
+soundfx=soundfx/powers/teleport.ogg
+buff=true
+remove_effect=dev_invis,1
+
