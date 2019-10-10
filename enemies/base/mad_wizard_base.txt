@@ -1,0 +1,2 @@
+INCLUDE enemies/base/thug_base_mage.txt
+animations=animations/enemies/thug_mage_ice.txt
