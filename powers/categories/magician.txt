@@ -1,0 +1,301 @@
+####
+### Channel
+####
+
+[power]
+id=116
+name=Channel
+type=missile
+icon=2
+description=Basic magic attack.
+new_state=swing
+requires_flags=mental
+face=true
+directional=true
+animation=animations/powers/channel.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=266ms
+radius=1.0
+speed=12
+starting_pos=melee
+
+
+
+####
+### Summon Skeleton (former: Shield)
+####
+
+[power]
+id=117
+INCLUDE powers/base/magician/summon_skeleton.txt
+requires_mp=7
+spawn_limit=fixed,1
+
+[power]
+id=118
+INCLUDE powers/base/magician/summon_skeleton.txt
+requires_mp=7
+spawn_limit=fixed,2
+
+[power]
+id=119
+INCLUDE powers/base/magician/summon_skeleton.txt
+requires_mp=7
+spawn_limit=fixed,3
+
+[power]
+id=120
+INCLUDE powers/base/magician/summon_skeleton.txt
+requires_mp=7
+spawn_limit=fixed,4
+
+[power]
+id=121
+INCLUDE powers/base/magician/summon_skeleton.txt
+requires_mp=7
+spawn_limit=fixed,5
+
+
+
+####
+### Bolt of Darkness (former: Fireball)
+####
+
+[power]
+id=122
+INCLUDE powers/base/magician/bolt_of_darkness.txt
+requires_mp=2
+modifier_damage=multiply,105,0
+
+[power]
+id=123
+INCLUDE powers/base/magician/bolt_of_darkness.txt
+requires_mp=3
+modifier_damage=multiply,110,0
+
+[power]
+id=124
+INCLUDE powers/base/magician/bolt_of_darkness.txt
+requires_mp=4
+modifier_damage=multiply,115,0
+
+[power]
+id=125
+INCLUDE powers/base/magician/bolt_of_darkness.txt
+requires_mp=5
+modifier_damage=multiply,120,0
+
+[power]
+id=126
+INCLUDE powers/base/magician/bolt_of_darkness.txt
+requires_mp=6
+modifier_damage=multiply,125,0
+
+
+
+####
+### Shadow Shield (former: Ice Bolt)
+####
+
+[power]
+id=127
+INCLUDE powers/base/magician/shadow_shield.txt
+requires_mp=7
+modifier_damage=multiply,200,0
+
+[power]
+id=128
+INCLUDE powers/base/magician/shadow_shield.txt
+requires_mp=12
+modifier_damage=multiply,250,0
+
+[power]
+id=129
+INCLUDE powers/base/magician/shadow_shield.txt
+requires_mp=17
+modifier_damage=multiply,300,0
+
+[power]
+id=130
+INCLUDE powers/base/magician/shadow_shield.txt
+requires_mp=21
+modifier_damage=multiply,350,0
+
+[power]
+id=131
+INCLUDE powers/base/magician/shadow_shield.txt
+requires_mp=24
+modifier_damage=multiply,400,0
+
+
+
+####
+### Summon Zombie (former: Shock)
+####
+
+[power]
+id=132
+INCLUDE powers/base/magician/summon_zombie.txt
+requires_mp=2
+spawn_limit=fixed,1
+
+[power]
+id=133
+INCLUDE powers/base/magician/summon_zombie.txt
+requires_mp=3
+spawn_limit=fixed,2
+
+[power]
+id=134
+INCLUDE powers/base/magician/summon_zombie.txt
+requires_mp=4
+spawn_limit=fixed,3
+
+[power]
+id=135
+INCLUDE powers/base/magician/summon_zombie.txt
+requires_mp=5
+spawn_limit=fixed,4
+
+[power]
+id=136
+INCLUDE powers/base/magician/summon_zombie.txt
+requires_mp=6
+spawn_limit=fixed,5
+
+
+
+####
+### Cadaverous Explosion (former: Burn)
+####
+
+[power]
+id=137
+INCLUDE powers/base/magician/cadaverous_explosion.txt
+requires_mp=6
+modifier_damage=multiply,75,0
+
+[power]
+id=138
+INCLUDE powers/base/magician/cadaverous_explosion.txt
+requires_mp=8
+modifier_damage=multiply,80,0
+
+[power]
+id=139
+INCLUDE powers/base/magician/cadaverous_explosion.txt
+requires_mp=10
+modifier_damage=multiply,85,0
+
+[power]
+id=140
+INCLUDE powers/base/magician/cadaverous_explosion.txt
+requires_mp=12
+modifier_damage=multiply,90,0
+
+[power]
+id=141
+INCLUDE powers/base/magician/cadaverous_explosion.txt
+requires_mp=14
+modifier_damage=multiply,95,0
+
+
+
+####
+### Necromancy (former: Freeze)
+####
+
+[power]
+id=142
+INCLUDE powers/base/magician/necromancy.txt
+post_effect=mp,10,0
+post_effect=mp_regen,15,0
+
+[power]
+id=143
+INCLUDE powers/base/magician/necromancy.txt
+post_effect=mp,20,0
+post_effect=mp_regen,30,0
+
+[power]
+id=144
+INCLUDE powers/base/magician/necromancy.txt
+post_effect=mp,30,0
+post_effect=mp_regen,45,0
+
+[power]
+id=145
+INCLUDE powers/base/magician/necromancy.txt
+post_effect=mp,40,0
+post_effect=mp_regen,60,0
+
+[power]
+id=146
+INCLUDE powers/base/magician/necromancy.txt
+post_effect=mp,50,0
+post_effect=mp_regen,75,0
+
+
+
+####
+### Summon Revenant (former: Thunderstrike)
+####
+
+[power]
+id=147
+INCLUDE powers/base/magician/summon_revenant.txt
+requires_mp=6
+
+[power]
+id=148
+INCLUDE powers/base/magician/summon_revenant.txt
+requires_mp=8
+
+[power]
+id=149
+INCLUDE powers/base/magician/summon_revenant.txt
+requires_mp=10
+
+[power]
+id=150
+INCLUDE powers/base/magician/summon_revenant.txt
+requires_mp=12
+
+[power]
+id=151
+INCLUDE powers/base/magician/summon_revenant.txt
+requires_mp=14
+
+
+
+####
+### Summon Shadow Wyvern (former: Energy Flow)
+####
+
+[power]
+id=152
+INCLUDE powers/base/magician/shadow_wyvern.txt
+requires_mp=6
+
+[power]
+id=153
+INCLUDE powers/base/magician/shadow_wyvern.txt
+requires_mp=8
+
+[power]
+id=154
+INCLUDE powers/base/magician/shadow_wyvern.txt
+requires_mp=10
+
+[power]
+id=155
+INCLUDE powers/base/magician/shadow_wyvern.txt
+requires_mp=12
+
+[power]
+id=156
+INCLUDE powers/base/magician/shadow_wyvern.txt
+requires_mp=14
+
