@@ -1,0 +1,2 @@
+background=images/menus/backgrounds/nothingness.png
+

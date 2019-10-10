@@ -1,0 +1,11 @@
+APPEND
+
+# Miscellaneous engine settings
+
+save_prefix=skequest
+currency_id=1
+sell_without_vendor=false
+save_onexit=false
+save_onload=false
+save_oncutscene=true
+menus_pause=true

@@ -1,0 +1,13 @@
+# option=index,base,head,portrait,name
+# index is an integer index, starting at 0
+# base is the folder in /images/avatar
+# head is the png in /images/avatar/[base]
+# name is the default name on character creation
+
+option=0,male,head_short,images/portraits/male01.png,Wormskull
+option=1,male,head_short,images/portraits/male02.png,Boneface
+option=2,male,head_short,images/portraits/male03.png,Frostmind
+
+option=20,female,head_long,images/portraits/female01.png,Doomwhisper
+option=21,female,head_long,images/portraits/female02.png,Voidheart
+option=22,female,head_long,images/portraits/female03.png,Graveblight
