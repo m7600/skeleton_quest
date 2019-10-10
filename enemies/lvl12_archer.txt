@@ -1,0 +1,38 @@
+INCLUDE enemies/base/plate_archer_base.txt
+
+name=Averguard Regal Archer
+level=12
+categories=human,soldier,archer,plate
+rarity=common
+xp=4096
+
+# combat stats
+stat=hp,350
+speed=5
+turn_delay=200ms
+
+stat=accuracy,150
+stat=avoidance,75
+stat=poise,43
+
+stat=dmg_melee_min,170
+stat=dmg_melee_max,175
+stat=dmg_ranged_min,180
+stat=dmg_ranged_max,185
+stat=absorb_min,11
+stat=absorb_max,12
+
+cooldown=1525ms
+
+# loot
+loot=loot/level_12.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=1
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=15,20
+power=melee,164,1
+power=ranged,171,80

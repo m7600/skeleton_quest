@@ -1,0 +1,30 @@
+INCLUDE enemies/base/leather_brute_base.txt
+
+name=Thug Enforcer
+level=4
+categories=human,thug,brute
+rarity=common
+xp=16
+
+# combat stats
+stat=hp,130
+speed=5
+turn_delay=400ms
+chance_pursue=10
+
+power=melee,164,10
+
+stat=accuracy,105
+stat=avoidance,25
+stat=poise,24
+
+stat=dmg_melee_min,55
+stat=dmg_melee_max,65
+cooldown=1525ms
+
+stat=absorb_min,4
+stat=absorb_max,3
+
+# loot
+loot=loot/level_4.txt
+

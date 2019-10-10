@@ -1,0 +1,45 @@
+INCLUDE enemies/base/cloth_mage_base.txt
+
+name=Averguard Arcanist
+level=7
+categories=human,soldier,mage,chainmail
+rarity=uncommon
+xp=128
+
+# combat stats
+stat=hp,190
+speed=5
+turn_delay=200ms
+
+stat=accuracy,120
+stat=avoidance,45
+stat=poise,28
+
+stat=absorb_min,6
+stat=absorb_max,6
+
+stat=dmg_melee_min,95
+stat=dmg_melee_max,100
+stat=dmg_ment_min,105
+stat=dmg_ment_max,110
+
+vulnerable=fire,150
+vulnerable=ice,75
+
+cooldown=1475ms
+
+# loot
+loot=loot/level_6.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=2
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=12,20
+power=melee,164,1
+power=melee,183,7
+power=ranged,173,50
+power=ranged,172,50
+power=ranged,174,50

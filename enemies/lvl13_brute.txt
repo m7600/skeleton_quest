@@ -1,0 +1,31 @@
+INCLUDE enemies/base/plate_brute_base.txt
+
+name=Averguard Crusader
+level=13
+categories=human,soldier,brute,plate
+rarity=common
+xp=8192
+
+# combat stats
+stat=hp,380
+speed=5.8
+turn_delay=200ms
+chance_pursue=10
+
+power=melee,164,2
+power=melee,254,5
+
+stat=accuracy,150
+stat=avoidance,70
+stat=poise,53
+
+stat=dmg_melee_min,190
+stat=dmg_melee_max,200
+cooldown=1275ms
+
+stat=absorb_min,13
+stat=absorb_max,13
+
+# loot
+loot=loot/level_13.txt
+

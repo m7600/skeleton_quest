@@ -1,0 +1,31 @@
+INCLUDE enemies/base/plate_brute_base.txt
+
+name=Averguard Knight
+level=10
+categories=human,soldier,brute,plate
+rarity=common
+xp=1024
+
+# combat stats
+stat=hp,315
+speed=5
+turn_delay=400ms
+chance_pursue=5
+
+power=melee,164,5
+power=melee,186,10
+
+stat=accuracy,135
+stat=avoidance,55
+stat=poise,45
+
+stat=dmg_melee_min,150
+stat=dmg_melee_max,160
+cooldown=1350ms
+
+stat=absorb_min,10
+stat=absorb_max,10
+
+# loot
+loot=loot/level_10.txt
+

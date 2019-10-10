@@ -1,0 +1,45 @@
+INCLUDE enemies/base/cloth_mage_base.txt
+
+name=Averguard Archwizard
+level=12
+categories=human,soldier,mage,chainmail
+rarity=uncommon
+xp=4096
+
+# combat stats
+stat=hp,300
+speed=5
+turn_delay=200ms
+
+stat=accuracy,145
+stat=avoidance,70
+stat=poise,43
+
+stat=absorb_min,10
+stat=absorb_max,10
+
+stat=dmg_melee_min,170
+stat=dmg_melee_max,175
+stat=dmg_ment_min,180
+stat=dmg_ment_max,185
+
+vulnerable=fire,50
+vulnerable=ice,125
+
+cooldown=1325ms
+
+# loot
+loot=loot/level_12.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=3
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=10,20
+power=melee,164,1
+power=melee,183,7
+power=ranged,173,50
+power=ranged,172,50
+power=ranged,174,50

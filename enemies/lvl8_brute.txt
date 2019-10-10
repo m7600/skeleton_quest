@@ -1,0 +1,31 @@
+INCLUDE enemies/base/chainmail_brute_base.txt
+
+name=Averguard Swordsmaster
+level=8
+categories=human,soldier,brute,chainmail
+rarity=common
+xp=256
+
+# combat stats
+stat=hp,245
+speed=5
+turn_delay=200ms
+chance_pursue=9
+
+power=melee,164,5
+power=melee,186,10
+
+stat=accuracy,125
+stat=avoidance,45
+stat=poise,39
+
+stat=dmg_melee_min,130
+stat=dmg_melee_max,140
+cooldown=1400ms
+
+stat=absorb_min,8
+stat=absorb_max,8
+
+# loot
+loot=loot/level_8.txt
+

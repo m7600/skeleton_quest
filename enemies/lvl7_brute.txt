@@ -1,0 +1,31 @@
+INCLUDE enemies/base/chainmail_brute_base.txt
+
+name=Averguard Swordsman
+level=7
+categories=human,soldier,brute,chainmail
+rarity=common
+xp=128
+
+# combat stats
+stat=hp,210
+speed=5
+turn_delay=200ms
+chance_pursue=10
+
+power=melee,164,5
+power=melee,186,10
+
+stat=accuracy,120
+stat=avoidance,40
+stat=poise,36
+
+stat=dmg_melee_min,120
+stat=dmg_melee_max,130
+cooldown=1425ms
+
+stat=absorb_min,7
+stat=absorb_max,7
+
+# loot
+loot=loot/level_7.txt
+

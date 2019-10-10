@@ -1,0 +1,38 @@
+INCLUDE enemies/base/chainmail_archer_base.txt
+
+name=Averguard Longbowman
+level=7
+categories=human,soldier,archer,chainmail
+rarity=common
+xp=128
+
+# combat stats
+stat=hp,200
+speed=5
+turn_delay=200ms
+chance_pursue=5
+
+stat=accuracy,120
+stat=avoidance,45
+stat=poise,28
+
+stat=dmg_melee_min,100
+stat=dmg_melee_max,105
+stat=dmg_ranged_min,105
+stat=dmg_ranged_max,110
+cooldown=1650ms
+stat=absorb_min,6
+stat=absorb_max,7
+
+# loot
+loot=loot/level_7.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=1
+chance_flee=25
+flee_duration=3s
+flee_cooldown=1s
+flee_range=7
+threat_range=13,20
+power=melee,164,3
+power=ranged,171,50

@@ -1,0 +1,31 @@
+INCLUDE enemies/base/chainmail_brute_base.txt
+
+name=Averguard Infantryman
+level=6
+categories=human,soldier,brute,chainmail
+rarity=common
+xp=64
+
+# combat stats
+stat=hp,185
+speed=5
+turn_delay=300ms
+chance_pursue=10
+
+power=melee,164,10
+power=melee,186,10
+
+stat=accuracy,115
+stat=avoidance,35
+stat=poise,30
+
+stat=dmg_melee_min,85
+stat=dmg_melee_max,95
+cooldown=1475ms
+
+stat=absorb_min,6
+stat=absorb_max,6
+
+# loot
+loot=loot/level_6.txt
+

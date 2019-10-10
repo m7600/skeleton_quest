@@ -1,0 +1,45 @@
+INCLUDE enemies/base/cloth_mage_base.txt
+
+name=Thug Spellweaver
+level=4
+categories=human,thug,mage,fire
+rarity=uncommon
+xp=16
+
+# combat stats
+stat=hp,115
+speed=5
+turn_delay=200ms
+
+stat=accuracy,105
+stat=avoidance,30
+stat=poise,19
+
+stat=absorb_min,3
+stat=absorb_max,3
+
+stat=dmg_melee_min,50
+stat=dmg_melee_max,55
+stat=dmg_ment_min,60
+stat=dmg_ment_max,65
+
+vulnerable=fire,75
+vulnerable=ice,150
+
+cooldown=1525ms
+
+# loot
+loot=loot/level_4.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=3
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=11,20
+power=melee,164,1
+power=melee,183,7
+power=ranged,173,50
+power=ranged,172,50
+power=ranged,174,50

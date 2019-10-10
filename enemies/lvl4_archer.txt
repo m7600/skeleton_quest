@@ -1,0 +1,38 @@
+INCLUDE enemies/base/leather_archer_base.txt
+
+name=Thug Sharpshooter
+level=4
+categories=human,thug,archer
+rarity=uncommon
+xp=16
+
+# combat stats
+stat=hp,125
+speed=5
+turn_delay=300ms
+
+stat=accuracy,105
+stat=avoidance,30
+stat=poise,19
+
+stat=dmg_melee_min,50
+stat=dmg_melee_max,55
+stat=dmg_ranged_min,60
+stat=dmg_ranged_max,65
+stat=absorb_min,3
+stat=absorb_max,4
+
+cooldown=1725ms
+
+# loot
+loot=loot/level_4.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=3
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=7
+threat_range=13,20
+power=melee,164,5
+power=ranged,171,50

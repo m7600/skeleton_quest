@@ -1,0 +1,38 @@
+INCLUDE enemies/base/chainmail_archer_base.txt
+
+name=Averguard Grand Archer
+level=11
+categories=human,soldier,archer,chaimail
+rarity=common
+xp=2048
+
+# combat stats
+stat=hp,275
+speed=5
+turn_delay=200ms
+
+stat=accuracy,145
+stat=avoidance,70
+stat=poise,40
+
+stat=dmg_melee_min,155
+stat=dmg_melee_max,160
+stat=dmg_ranged_min,165
+stat=dmg_ranged_max,170
+stat=absorb_min,10
+stat=absorb_max,11
+
+cooldown=1550ms
+
+# loot
+loot=loot/level_11.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=1
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=15,20
+power=melee,164,1
+power=ranged,171,80

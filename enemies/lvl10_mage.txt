@@ -1,0 +1,45 @@
+INCLUDE enemies/base/cloth_mage_base.txt
+
+name=Averguard Wizard
+level=10
+categories=human,soldier,mage,chainmail
+rarity=uncommon
+xp=1024
+
+# combat stats
+stat=hp,255
+speed=5
+turn_delay=200ms
+
+stat=accuracy,135
+stat=avoidance,60
+stat=poise,37
+
+stat=absorb_min,9
+stat=absorb_max,9
+
+stat=dmg_melee_min,140
+stat=dmg_melee_max,145
+stat=dmg_ment_min,150
+stat=dmg_ment_max,155
+
+vulnerable=fire,50
+vulnerable=ice,125
+
+cooldown=1350ms
+
+# loot
+loot=loot/level_11.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=3
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=10,20
+power=melee,164,1
+power=melee,183,7
+power=ranged,173,50
+power=ranged,172,50
+power=ranged,174,50

@@ -1,0 +1,31 @@
+INCLUDE enemies/base/plate_brute_base.txt
+
+name=Averguard Grand Paladin
+level=14
+categories=human,soldier,brute,plate
+rarity=common
+xp=16384
+
+# combat stats
+stat=hp,395
+speed=5.8
+turn_delay=200ms
+chance_pursue=10
+
+power=melee,164,2
+power=melee,254,5
+
+stat=accuracy,155
+stat=avoidance,75
+stat=poise,55
+
+stat=dmg_melee_min,205
+stat=dmg_melee_max,215
+cooldown=1250ms
+
+stat=absorb_min,14
+stat=absorb_max,14
+
+# loot
+loot=loot/level_14.txt
+

@@ -1,0 +1,46 @@
+INCLUDE enemies/base/cloth_mage_base.txt
+
+name=Averguard Elder Spellweaver
+level=13
+categories=human,soldier,mage,plate
+rarity=uncommon
+xp=8192
+
+# combat stats
+stat=hp,320
+speed=4.3
+turn_delay=200ms
+
+stat=accuracy,150
+stat=avoidance,75
+stat=poise,46
+
+stat=absorb_min,13
+stat=absorb_max,13
+
+stat=dmg_melee_min,185
+stat=dmg_melee_max,190
+stat=dmg_ment_min,195
+stat=dmg_ment_max,200
+
+vulnerable=lightning,50
+vulnerable=dark,125
+
+cooldown=1200ms
+
+# loot
+loot=loot/level_13.txt
+
+# Ranged units behaviour, see docs/ranged_behavior.txt
+chance_pursue=3
+chance_flee=20
+flee_duration=3s
+flee_cooldown=1s
+flee_range=8
+threat_range=10,20
+power=melee,164,1
+power=melee,183,7
+power=ranged,173,50
+power=ranged,172,50
+power=ranged,174,50
+power=ranged,174,50
