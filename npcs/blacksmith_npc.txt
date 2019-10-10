@@ -1,0 +1,32 @@
+name=Sorsha
+
+portrait=
+
+# animation info
+gfx=animations/npcs/skeleton_guard_animation.txt
+
+# shop info
+vendor=true
+constant_stock=8,9,7,11
+status_stock=emp_perdition_trader1,96,97,98,99,100,106,107,109
+status_stock=emp_perdition_trader2,204,205,206,207,208,214,215,217
+status_stock=emp_perdition_trader3,311,312,313,314,315,321,322,324
+
+talker=true
+
+[dialog]
+topic=Introduction
+her=Greetings. I'm Sorsha, the local blacksmith.
+
+[dialog]
+topic=Rescue Krolan
+requires_status=sq_ratface_defeated
+requires_not_status=sq_krolan_init
+requires_not_status=sq_krolan_finish
+her=A scout has just returned with news from the Solitary River. One of our comrades, Krolan, has been trapped in an abandoned mine in that area.
+her=Krolan is an expert miner, he usually provides us with raw metals and minerals.
+her=The scout tried to help him, but he was outnumbered.
+her=I hate to ask for favors, but no one else is willing to accept this mission.
+you=I'll see what I can do.
+set_status=sq_krolan_init
+msg=Quest added.
