@@ -1,0 +1,29 @@
+caption_margins=5,5
+caption_background=0,0,0,200
+
+
+[scene]
+
+caption=At this very moment, there is only an infinite blackness.
+pause=-1
+caption=There is no time nor space. The world does not manifest itself to you in any way.
+pause=-1
+caption=In fact, you do not exist. But there is no sadness here, nor joy.
+pause=-1
+caption=It is a state of transcendental nirvana. Everything is tranquile and quiet.
+pause=-1
+caption=You are in the most peaceful moment you ever knew...
+pause=-1
+caption=... you are dead.
+pause=-1
+
+caption=But something is not right: you should not be able to think about all of this... and yet you do.
+pause=-1
+
+caption=You start to recover your memory as you gradually cease to be One-With-Nothingness.
+pause=-1
+
+caption=Something is disturbing your eternal rest...
+pause=-1
+caption= ...something is pulling you back to life.
+pause=-1
