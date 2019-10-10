@@ -1,0 +1,15 @@
+name=Ratface the Thug Lord
+
+talker=true
+
+# animation info
+
+[dialog]
+topic=Talk
+him=And what do we have here? A wandering little skelly, eh?
+you=You'll be just like me in a few moments.
+him=Is that so? You can discuss it with my guards here. Now if you excuse me, I have a pile of money that I would like to count from the comfort of my stronghold.
+you=Good luck surviving there. I poisoned your water supply, creep.
+him=So you're the little cretin that has caused that temporary setback, eh?
+you=Impressed?
+him=You won't make it out of here in one piece. I'll use your skull as a beer mug after I destroy you.

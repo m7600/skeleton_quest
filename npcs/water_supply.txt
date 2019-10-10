@@ -1,0 +1,15 @@
+name=Water Supply
+
+# animation info
+gfx=animations/npcs/return_obelisk2.txt
+
+talker=true
+
+[dialog]
+topic=Water Supply
+requires_status=sq_water_supply_init
+requires_not_status=sq_empty_vial
+requires_not_status=sq_water_supply_finish
+him=(You empty the vial of poison into the thug's water supply.)
+remove_item=1001
+set_status=sq_empty_vial

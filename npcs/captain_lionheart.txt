@@ -1,0 +1,15 @@
+name=Captain Lionheart
+
+talker=true
+
+# animation info
+
+[dialog]
+topic=Talk
+him=So, you have arrived. The fabled adventuring skeleton.
+him=To think that you began your unlife fighting against common thugs. And yet you have carved your own path, slaying every enemy in your wake, all the way to Lionheart's Keep.
+you=A fitting name for the lair of an animal. This place looks more like the den of a lion than the keep of a man. You have decorated these walls with the bones of my comrades.
+him=I am glad you noticed the exquisite decorations, I like to think that I am a man of refined tastes.
+you=How about I decorate these walls with your intestines? Care to have a taste of that?
+him=Your choice of words only proves what I already believe: the undead are hostile, dangerous monsters that should be destroyed without mercy.
+you=Then let the violence of my words be replaced by the violence of my actions.

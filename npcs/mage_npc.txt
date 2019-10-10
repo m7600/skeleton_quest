@@ -1,0 +1,37 @@
+name=Xonun
+
+# portrait=
+
+# animation info
+gfx=animations/npcs/skeleton_mage_boss.txt
+
+direction=NE
+
+# shop info
+vendor=true
+constant_stock=2:10,3:10,750:20,753,203:5,412:5,413:5,414:5,415:5,416:5,417:5,418:5,10,4,5,6
+status_stock=emp_perdition_trader1,101,102,103,104,105,108
+status_stock=emp_perdition_trader2,209,210,211,212,213,216
+status_stock=emp_perdition_trader3,316,317,318,319,320,323
+
+# voiceover files
+
+talker=true
+
+[dialog]
+topic=Introduction
+him=Welcome to my humble shop of spells and magical artifacts.
+
+[dialog]
+topic=Mindless Zombie
+requires_status=sq_loren_init
+requires_not_status=sq_loren_finish
+you=What can you tell me about that zombie in the southeast section?
+him=That would be Loren. An intelligent fellow, though unfortunately he has become mindless again.
+you=What do you mean?
+him=Unlike other kinds of undead, zombies are peculiar in that they need to feed on fresh brains in order to maintain their mental faculties. If they spend too much time without feeding, they become mindless.
+him=Loren has his ups and downs. We try to bring him some fresh brains whenever we can, usually from some of the thug mages. You see, the more intelligent a zombie was in life, the more sophisticated must be the brain they feed on during their undeath. 
+him=But, since he was quite smart, the brains we usually bring him are not a very high quality, so to speak. It does not take much wits to become a thug, and their mages are not exactly geniuses. 
+you=So where can we find a fresh 'quality brain'?
+him=That I do not know. It would have to be a rather extraordinary brain, like that of an arch-wizard.
+set_status=sq_loren_xonun

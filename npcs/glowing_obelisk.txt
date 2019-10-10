@@ -1,0 +1,19 @@
+name=Glowing Obelisk
+
+# animation info
+gfx=animations/npcs/return_obelisk2.txt
+
+talker=true
+
+[dialog]
+topic=Teleport
+requires_not_status=sq_lionheart_defeated
+him=(You touch the obelisk, but nothing happens.)
+
+[dialog]
+topic=Teleport
+requires_status=sq_lionheart_defeated
+soundfx=soundfx/environment/teleporter.ogg,0,0
+intermap=maps/03_skeleton_cave.txt,17,25
+set_status=sq_lionheart_respawn
+set_status=sq_main_finish

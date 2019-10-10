@@ -1,0 +1,33 @@
+name=Loren
+
+# portrait=
+
+# animation info
+gfx=animations/enemies/zombie.txt
+
+direction=SE
+
+# voiceover files
+vox_intro=soundfx/enemies/zombie_phys.ogg
+# vox_intro=soundfx/enemies/zombie_ment.ogg
+
+talker=true
+
+[dialog]
+topic=Introduction
+requires_not_status=sq_loren_init
+requires_not_status=sq_loren_finish
+him=Ugh...
+you=Greetings?
+him=Ugh...
+set_status=sq_loren_init
+msg=Quest added.
+
+[dialog]
+topic=Talk
+requires_status=sq_loren_brain
+requires_not_status=sq_loren_finish
+him=Thank you.
+you=Glad I could help.
+remove_item=1001
+set_status=sq_loren_finish

@@ -1,0 +1,36 @@
+name=Zola
+
+talker=true
+# portrait=
+
+# animation info
+gfx=animations/npcs/zola_animation.txt
+
+direction=SE
+
+[dialog]
+topic=Thug Stronghold
+requires_not_status=sq_water_supply_init
+requires_not_status=sq_water_supply_finish
+you=Cornelius says that you might have some ideas for undermining the thug's control of this zone.
+him=All of our attempts have failed so far, since they receive new reinforcements every week. Attacking their camp is one thing, but ferreting them out of their stronghold is a different matter.
+him=It is a highly guarded underground compound, just beneath their campsite. Every time we manage to raid their camp, they simply retreat to the safety of their underground fortress, where they wait for the arrival of new reinforcements.
+you=So what's the plan?
+him=In order to push them back for good, it will be necessary to strike at the very heart of their stronghold. We do not have the resources for a full scale attack, but if we manage to sneak into their compound, we might have a chance.
+you=How?
+him=By poisoning their water supply. They cannot wait an entire week for the arrival of new troops if they cannot hydrate. In any case, they will be forced to choose between the ingestion of a lethal poison or death by terminal dehydration.
+reward_item=1000,1
+set_status=sq_water_supply_init
+msg=Quest added.
+
+[dialog]
+topic=Thug Stronghold
+requires_status=sq_water_supply_init
+requires_status=sq_empty_vial
+you=I've poisoned the thug's water supply. Those fools will think twice before setting foot next to our cave.
+him=You have succeeded where others have failed. As a token of appreciation, I will teach you what I can on any specialty of your choice.
+him=Before you venture forth, you might want to speak to Cornelius.
+reward_xp=500
+set_status=sq_water_supply_finish
+unset_status=sq_water_supply_init
+unset_status=sq_empty_vial

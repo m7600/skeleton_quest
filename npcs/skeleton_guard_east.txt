@@ -1,0 +1,14 @@
+name=Skeleton Guard
+
+# portrait=
+
+# animation info
+gfx=animations/npcs/skeleton_guard_animation.txt
+
+direction=E
+
+talker=true
+
+[dialog]
+topic=Talk
+him=(The guard looks at you and nods approvingly, but says nothing)

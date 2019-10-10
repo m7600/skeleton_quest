@@ -1,0 +1,73 @@
+name=Cornelius
+
+talker=true
+# portrait=
+
+# animation info
+gfx=animations/npcs/cornelius_animation.txt
+
+direction=SE
+
+[dialog]
+topic=Introduction
+requires_not_status=sq_cornelius_init
+requires_not_status=sq_cornelius_finish
+him=At ease, disease!
+you=Isn't that a line from Sargent Slaughter?
+him=Sargent who?
+you=Nevermind. Who are you?
+him=Why, I am Sir Cornelius Reginald Cobblesworth of Glastontborough the IV! General and Commander of the North-East Army, Thirtyseventh Regiment, Division Seven-O'-Seven, Forty-Sixth Platoon!
+you=I'll just call you 'Cornelius'.
+him=Ha! I was once like you! An undisciplined rabble-rouser with no respect for the official salutary protocols of the chain of command! 
+him=But, you have potential. You did make it to this cave practically unscratched after all.
+you=Barely. I got assaulted by some thugs while I was on my way here.
+him=Yes, those malcontents are still lingering outside. We have some guards on duty twenty-four seven watching the entrances, but untill more troops arrive, we cannot expell those brigands from the surrounding premises. 
+you=They must have a campsite somewhere, perhaps if we attack them there, we will undermine their control of this zone.
+him=They do, just north of here. Not only that, they have also occupied an abandoned stronghold. We have been trying to drive them out for weeks, to no avail. 
+you=Any "plan B"?
+him=None that seems worthwhile. Although you might want to discuss this issue with Zola, he is the special operations tactician. Perhaps he has some alternative ideas on what to do, since all of my own ideas have failed so far.
+set_status=sq_cornelius_finish
+
+[dialog]
+topic=Ratface the Thug Lord
+requires_status=sq_water_supply_finish
+requires_not_status=sq_ratface_init
+requires_not_status=sq_ratface_finish
+you=Zola said that you had information for me, Cornelius?
+him=Remember the official salutary protocols, soldier! You are hereby notified of the request as per the document entitled "Undead Code of Conduct on Offical Salutary Protocols", Chapter 3, Section 8, Paragraph 47, to pronounce the first name, last name, title and rank of a superior officer when refering to the superior officer in question!
+you=Who wrote that document?
+him=Well I did, of course!
+you=I see... good luck with that, Cornelius.
+him=Ha! One day you will see the errors of your ways, just like I did! And then you will understand the importance of official salutary protocols. But enough of that, let us discuss the latest intelligence reports.
+him=Thanks to the success of your covert operations mission, the lowlife scoundrels otherwise known as thugs have fled further north.
+him=However, they have set foot somewhere in the Frozen Tundra. They are mustering their resources and rallying their troops around their leader, Ratface.
+you=A charming individual and a gentleman, surely. 
+him=He is a lowlife scumbag, who is personally much more unpleasant and disgraceful than the goons and dimwits that he usually employs.
+you=I'll be sure to tell him you said "hi" when I see him.
+set_status=sq_ratface_init
+msg=Quest added.
+
+[dialog]
+topic=Ratface the Thug Lord
+requires_status=sq_ratface_defeated
+requires_not_status=sq_ratface_finish
+you=Ratface is dead.
+him=Most excellent news!
+him=Before you leave the Cave, be sure to speak to Sorsha, she is looking for volunteers for a mission.
+reward_xp=500
+set_status=sq_ratface_finish
+
+[dialog]
+topic=Captain Lionheart
+requires_status=sq_martigan_finish
+requires_not_status=sq_lionheart_init
+requires_not_status=sq_lionheart_finish
+him=You have done much for us, and you have proven to be an exceptional adventurer. You might even replace me as a general and commander one day.
+him=Our control of this zone is almost complete. Thanks to your efforts, the humans have been pushed back to the far north.
+him=They have retreated to the safety of their main fortress in these regions, rallying around their leader, Captain Aurelius Lionheart. 
+him=Lionheart is a despicable individual. He decorates the halls of his keep with the skulls and bones from the undead that he defeats. He considers them "trophies". 
+him=As long as Lionheart lives, we will not be able to secure our control of these areas.
+you=Consider him dead.
+set_status=sq_lionheart_init
+msg=Quest added.
+

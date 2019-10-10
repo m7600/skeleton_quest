@@ -1,0 +1,16 @@
+name=Martigan
+
+portrait=images/portraits/male05.png
+
+talker=true
+
+# animation info
+
+[dialog]
+topic=Talk
+you=You must be Martigan. Just what is your problem? Why couldn't you leave Krolan alone?
+him=Krolan was an employee of mine, and it is extremely sad to see him turned into a dangerous, mindless skeleton.
+you=Are you insane? He may be dead, but he's just trying to work like anyone else.
+him=Nonsense! Krolan has died! His corpse must be put to rest in peace!
+you=And what if he doesn't want that?
+him=It doesn't matter what he wants! He's dead! He has to rest in peace! And as a matter of fact, so do you!

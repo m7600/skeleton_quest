@@ -1,0 +1,37 @@
+name=Krolan
+
+# portrait=
+
+# animation info
+gfx=animations/npcs/skeleton_guard_animation.txt
+
+direction=E
+
+talker=true
+
+[dialog]
+topic=Introduction
+requires_status=sq_krolan_init
+requires_not_status=sq_krolan_finish
+him=Thank goodness someone answered my call for help! I was starting to think that I would be trapped here forever!
+you=So why did they trap you in this abandoned mine to begin with?
+him=I was just working there, minding my own business, when some crazy human adventurer appeared and attacked me.
+him=I defeated him easily, and went back to work, thinking that was the end of it. But then another one arrived, and after I killed him, another one, and so on.
+him=Eventually I got fed up and started to ask them what the hell they thought they were doing.
+him=They said that some fellow named Martigan had sent them to destroy me! That I was his employee during life or something, and that I should be put to rest in peace!
+him=I do not have any memories of my life, but this Martigan fellow sounds insane. Why can't he just leave me alone? It's not like I'm causing any trouble, I'm just trying to work!
+him=*Sigh*... so eventually, the adventurers just stopped showing up. They guarded the entrance, saying that there was a 'dangerous skeleton' haunting the mines, and that was the end of it.
+you=Perhaps I should pay this Martigan a visit.
+set_status=sq_krolan_finish
+set_status=sq_martigan_init
+msg=Quest added.
+
+[dialog]
+topic=Martigan
+requires_status=sq_martigan_defeated
+requires_not_status=sq_martigan_finish
+you=I could not reason with Martigan. He attacked me, and now he is six feet under.
+him=No one could reason with that man. I thank you for your help.
+him=By the way, Cornelius sent a scout a few moments ago. He has some new information for you. 
+reward_xp=500
+set_status=sq_martigan_finish

@@ -1,0 +1,24 @@
+name=Hyperlich
+
+# portrait=
+
+# animation info
+gfx=animations/npcs/hyperlich_animation.txt
+
+talker=true
+
+[dialog]
+topic=Introduction
+her=Greetings. I am the guardian of this place.
+
+[dialog]
+topic=Hyperspace
+you=Tell me about hyperspace.
+her=The space that you normally interact with has three dimensions: height, width, and depth. Some folks argue that time would be the fourth spacial dimension, though I am not thoroghly convinced of this. If we exclude time, then hyperspace would be the true fourth dimension of space. 
+her=Yet that is not entirely accurate. It would be more precise to say that hyperspace is an n-dimensional space, where "n" can be any natural number, though I have my doubts about this as well.
+her=In theory, "n" could be any number whatsoever, including rational numbers, real numbers, complex numbers, and so on. There could be spacial dimensions which are decimal, fractionary or even imaginary, in the sense of imaginary numbers.
+her=In addition to a fourth, fifth, or sixth dimension, space could have a "3/4 dimension", or a "0.62 dimension", or a "square-root-of-negative-two dimension".
+you=That sounds purely theoretical. What empirical evidence do you have that physical space could have those dimensions?
+her=None, for the momment. But research in pure mathematics should not be hastily dismissed by arguing that it cannot be applied to physical space. Perhaps we have not found those applications yet.
+you=I will leave you to your research then. Farewell.
+

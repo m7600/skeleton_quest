@@ -1,0 +1,21 @@
+name=Bill the Skeleton
+
+# animation info
+gfx=animations/npcs/dead_skeleton.txt
+
+talker=true
+
+[dialog]
+topic=Tutorial
+allow_movement=false
+you=Where am I...?
+him=Aha! At last you say something! Your rotten corpse has been moving spasmodically but mindlessly for ages! Well, maybe not "ages", but you get the point.
+you=You... why have you interrupted my everlasting rest?
+him=Me? I have done nothing of the sort! We were killed in battle, along with these other folk that you see around here, don't you remember?
+you=My memories are slowly returning to me... but there is much that I cannot recall yet.
+him=Yeah, you got whacked in the head with a mace, tough way to go. I got luckier, just an arrow to the chest. It was kinda painfull, but I died in a few minutes, so, no biggie. 
+you=But why are we alive again?.
+him=Well, we're not really "alive", you know. I think the technical term is "undead". Anyways, as to your question... no idea. Some of these other folk have woken up and went deep into the caves, they were talking about setting up camp there, rally the troops, and whatnot. 
+you=Perhaps I will pay them a visit. Are you comming along?
+him=Nah, I'd rather stay here. If more people wake up, I'll try to help them out, just like I helped you! Ha! Besides, I can't walk, dunno why. I think a knight's horse crushed my legs while I was dying on the battlefield or something.
+him=Before you go, take this ring. Some goblin or whatever dropped it. It has some magic property, but I don't really know what it does. I'm sure you'll figure it out. 
