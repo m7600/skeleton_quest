@@ -1,0 +1,7 @@
+name=Unholy Aura
+description=Withstand stronger attacks with more health and absorption.
+type=fixed
+icon=11
+buff=true
+passive=true
+

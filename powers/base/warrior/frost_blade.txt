@@ -1,0 +1,13 @@
+name=Frost Blade
+description=Freezing melee attack.
+type=fixed
+icon=5
+new_state=swing
+face=true
+use_hazard=true
+base_damage=melee
+lifespan=33ms
+radius=1.0
+starting_pos=melee
+trait_elemental=ice
+post_power=159

@@ -1,0 +1,13 @@
+name=Leech Strike
+description=Melee attack that steals life from the target and adds it to the Death Knight.
+icon=22
+type=fixed
+new_state=cast
+face=true
+use_hazard=true
+base_damage=melee
+lifespan=33ms
+radius=1.0
+starting_pos=melee
+hp_steal=50
+
