@@ -1,0 +1,22 @@
+name=Cadaverous Explosion
+type=fixed
+icon=37
+description=Make a corpse explode, damaging nearby enemies.
+new_state=cast
+face=true
+requires_los=false
+requires_targeting=true
+animation=animations/powers/blast.txt
+soundfx=soundfx/powers/burn.ogg
+use_hazard=true
+base_damage=ment
+lifespan=600ms
+radius=2.0
+floor=true
+trait_elemental=dark
+starting_pos=target
+multitarget=true
+post_power=158
+target_range=8.0
+requires_corpse=consume
+

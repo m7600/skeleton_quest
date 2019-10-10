@@ -1,0 +1,13 @@
+name=Summon Shadow Wyvern
+type=spawn
+icon=17
+description=Summons a Shadow Wyvern to fight for you.
+new_state=cast
+spawn_type=summon_shadow_wyvern
+spawn_limit=fixed,1
+spawn_level=level,1,1
+requires_los=false
+requires_empty_target=true
+requires_corpse=false
+cooldown=5s
+

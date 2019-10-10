@@ -1,0 +1,7 @@
+name=Necromancy
+description=Mana reserves are increased and regenerate faster.
+type=fixed
+icon=14
+buff=true
+passive=true
+

@@ -1,0 +1,13 @@
+name=Summon Skeleton
+type=spawn
+icon=15
+description=Summon a skeleton soldier to fight for you. With each new level an additional skeleton may be summoned.
+new_state=cast
+spawn_type=summon_skeleton
+spawn_limit=fixed,1
+spawn_level=level,1,1
+requires_los=false
+requires_empty_target=false
+requires_corpse=consume
+cooldown=5s
+
