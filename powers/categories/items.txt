@@ -36,12 +36,12 @@ requires_empty_target=true
 id=246
 type=fixed
 icon=79
-name=Perdition Scroll
+name=Skeleton Cave Scroll
 new_state=cast
 requires_item=412
 cooldown=30s
 soundfx=soundfx/environment/teleporter.ogg
-script=on_cast,scripts/powers/perdition_scroll.txt
+script=on_cast,scripts/powers/skeleton_cave_scroll.txt
 buff=true
 post_effect=teleport,0,533ms
 
