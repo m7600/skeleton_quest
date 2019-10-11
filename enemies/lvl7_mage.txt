@@ -1,4 +1,4 @@
-INCLUDE enemies/base/cloth_mage_base.txt
+INCLUDE enemies/base/chainmail_mage_base.txt
 
 name=Averguard Arcanist
 level=7
