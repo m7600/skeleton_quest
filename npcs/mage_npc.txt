@@ -25,6 +25,7 @@ him=Welcome to my humble shop of spells and magical artifacts.
 [dialog]
 topic=Mindless Zombie
 requires_status=sq_loren_init
+requires_not_status=sq_loren_xonun
 requires_not_status=sq_loren_finish
 you=What can you tell me about that zombie in the southeast section?
 him=That would be Loren. An intelligent fellow, though unfortunately he has become mindless again.
