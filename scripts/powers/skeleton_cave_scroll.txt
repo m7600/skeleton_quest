@@ -1,0 +1,2 @@
+[event]
+intermap=maps/03_skeleton_cave.txt,16,23
