@@ -11,5 +11,5 @@ requires_status=sq_water_supply_init
 requires_not_status=sq_empty_vial
 requires_not_status=sq_water_supply_finish
 him=(You empty the vial of poison into the thug's water supply.)
-remove_item=1001
+remove_item=1000
 set_status=sq_empty_vial
