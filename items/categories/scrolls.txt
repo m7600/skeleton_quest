@@ -14,10 +14,10 @@ no_stash=shared
 
 [item]
 id=412
-name=Perdition Scroll
+name=Skeleton Cave Scroll
 INCLUDE items/base/scrolls/scroll_8.txt
 power=246
-power_desc=Use: Teleport to Perdition Harbor
+power_desc=Use: Teleport to the Skeleton Cave
 price=25
 price_per_level=25
 price_sell=12
