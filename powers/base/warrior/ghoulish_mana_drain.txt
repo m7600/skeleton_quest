@@ -1,0 +1,10 @@
+name=Ghoulish Mana Drain
+description=Consume a corpse in order to recover mana.
+icon=33
+type=fixed
+new_state=cast
+face=true
+cooldown=500ms
+buff=true
+post_effect=mp_restore,25,33ms
+requires_corpse=consume
