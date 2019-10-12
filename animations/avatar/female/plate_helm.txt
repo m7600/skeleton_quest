@@ -1,5 +1,5 @@
 
-image=images/avatar/female_and_male/skeleton_default_head.png
+image=images/avatar/female_and_male/skeleton_plate_head.png
 
 render_size=128,128
 render_offset=64,96
