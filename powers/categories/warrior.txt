@@ -139,107 +139,103 @@ cooldown=12s
 [power]
 id=17
 INCLUDE powers/base/warrior/leech_blade.txt
-requires_mp=3
+requires_mp=2
 hp_steal=75
 modifier_damage=multiply,90,0
 
 [power]
 id=18
 INCLUDE powers/base/warrior/leech_blade.txt
-requires_mp=5
+requires_mp=3
 hp_steal=100
 modifier_damage=multiply,105,0
 
 [power]
 id=19
 INCLUDE powers/base/warrior/leech_blade.txt
-requires_mp=7
+requires_mp=4
 hp_steal=125
 modifier_damage=multiply,120,0
 
 [power]
 id=20
 INCLUDE powers/base/warrior/leech_blade.txt
-requires_mp=9
+requires_mp=5
 hp_steal=150
 modifier_damage=multiply,135,0
 
 [power]
 id=21
 INCLUDE powers/base/warrior/leech_blade.txt
-requires_mp=11
+requires_mp=6
 hp_steal=175
 modifier_damage=multiply,150,0
 
 
 
 ####
-### Weakness to Ice (former: Throw Knife)
+### Ghoulish Feast (former: Throw Knife)
 ####
 
 [power]
 id=22
-INCLUDE powers/base/warrior/weakness_to_ice.txt
+INCLUDE powers/base/warrior/ghoulish_feast.txt
 requires_mp=2
 cooldown=10s
 
 [power]
 id=23
-INCLUDE powers/base/warrior/weakness_to_ice.txt
+INCLUDE powers/base/warrior/ghoulish_feast.txt
 requires_mp=3
 cooldown=8s
 
 [power]
 id=24
-INCLUDE powers/base/warrior/weakness_to_ice.txt
+INCLUDE powers/base/warrior/ghoulish_feast.txt
 requires_mp=4
 cooldown=6s
 
 [power]
 id=25
-INCLUDE powers/base/warrior/weakness_to_ice.txt
+INCLUDE powers/base/warrior/ghoulish_feast.txt
 requires_mp=5
 cooldown=4s
 
 [power]
 id=26
-INCLUDE powers/base/warrior/weakness_to_ice.txt
+INCLUDE powers/base/warrior/ghoulish_feast.txt
 requires_mp=6
 cooldown=2s
 
 
 ####
-### Weakness to Darkness (former: Throw Axe)
+### Ghoulish Mana Drain (former: Throw Axe)
 ####
 
 [power]
 id=27
-INCLUDE powers/base/warrior/weakness_to_darkness.txt
-requires_mp=3
+INCLUDE powers/base/warrior/ghoulish_mana_drain.txt
 cooldown=10s
 
 [power]
 id=28
-INCLUDE powers/base/warrior/weakness_to_darkness.txt
-requires_mp=5
+INCLUDE powers/base/warrior/ghoulish_mana_drain.txt
 cooldown=8s
 
 [power]
 id=29
-INCLUDE powers/base/warrior/weakness_to_darkness.txt
-requires_mp=7
+INCLUDE powers/base/warrior/ghoulish_mana_drain.txt
 cooldown=6s
 
 [power]
 id=30
-INCLUDE powers/base/warrior/weakness_to_darkness.txt
-requires_mp=9
+INCLUDE powers/base/warrior/ghoulish_mana_drain.txt
 cooldown=4s
 
 [power]
 id=31
-INCLUDE powers/base/warrior/weakness_to_darkness.txt
-requires_mp=11
+INCLUDE powers/base/warrior/ghoulish_mana_drain.txt
+mp_steal=175
 cooldown=2s
 
 
